@@ -14,7 +14,7 @@ import java.util.Date;
  */
 
 @Entity
-@Table(name = "db_user")
+@Table(name = "manager_user")
 public class User extends BaseEntity implements Serializable {
     @Column(unique = true,nullable = false)
     private String username;

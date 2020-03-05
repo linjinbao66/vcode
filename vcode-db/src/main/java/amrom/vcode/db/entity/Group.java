@@ -9,7 +9,7 @@ import javax.persistence.Table;
  * 分组表
  */
 @Entity
-@Table(name = "db_group")
+@Table(name = "manager_group")
 public class Group extends BaseEntity{
     private String groupName;
     private String description;

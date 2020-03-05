@@ -10,7 +10,7 @@ import javax.persistence.Table;
  * 菜单分类
  */
 @Entity
-@Table(name = "db_menutype")
+@Table(name = "manager_menutype")
 public class MenuType extends BaseEntity{
 
     @Column(name = "typeName", nullable = false, columnDefinition = "varchar(50) comment '菜单分类名称'")

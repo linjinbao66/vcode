@@ -10,7 +10,7 @@ import java.util.Date;
  * @date 2020/3/5
  */
 @Entity
-@Table(name = "db_user_extend")
+@Table(name = "manager_user_extend")
 public class UserExtend extends BaseEntity {
     @Column(name = "userid",nullable = false,columnDefinition = "int(11) comment '用户id'")
     private Integer userid;
